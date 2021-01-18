@@ -13,5 +13,4 @@ asset = 'insert_dai_address_here' //Dai kovan<br>
 f.flashloan(asset, amount)
 
 example of flashloan performed:<br>
-tx hash flashloan:<br>
 https://kovan.etherscan.io/tx/0xcbc2e7163d76c4c31bc1eb88911a9111736db01ea9816ec1aa22e9cd494728e1
