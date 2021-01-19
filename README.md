@@ -5,7 +5,7 @@ truffle run verify Flashloan@smart_contract_address_here -- network kovan
 
 2. Send some Dai to smart contract for fee payment
 
-3. perform flash loan:<br>
+3. perform the flash loan:<br>
 truffle console --network kovan<br>
 let f = await Flashloan.deployed<br>
 amount = web3.utils.toWei('1000') //borrow dai<br>
