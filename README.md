@@ -3,7 +3,7 @@
 1. verify smart contract locally:<br>
 truffle run verify Flashloan@smart_contract_address_here -- network kovan
 
-2. Send some Dai to smart contract for fee payment
+2. Send some kovan Dai to smart contract for fee payment
 
 3. perform the flash loan:<br>
 truffle console --network kovan<br>
