@@ -7,6 +7,7 @@ truffle run verify Flashloan@smart_contract_address_here -- network kovan
 
 3. perform the flash loan:<br>
 truffle console --network kovan<br>
+migrate --reset<br>
 let f = await Flashloan.deployed<br>
 amount = web3.utils.toWei('1000') //borrow dai<br>
 asset = 'insert_dai_address_here' //Dai kovan<br>
